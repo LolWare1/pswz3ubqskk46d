@@ -1,0 +1,11 @@
+{
+  "version": "4.0.1",
+  "notes": "Version 4.0.1",
+  "pub_date": "2026-11-01T05:43:01.454249Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blpCMFRuUGcyL3d0bmdWOW1KckU5RXNaM3R1cjlHcU5hQVBlNWdGcGgwK1ViMExQZW1ZM3NXUTFOb2NTOG5xOFlubzBtclRsSEthb1NJcDNEa0lhdVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTExNDM2CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMV94NjQtc2V0dXAuZXhlCmhvaHdKNDRLdGVFblYvd0hNOFVvRHVJaEhWMWZnU3BpV0JlS0k2L1RXUFNJaEdkUEVaNStjZGVUWElGbUlwZE9GdkdOYjhWZWx1UUZxTGJpRnNFckFnPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.1-beta-nexus-ws/setup-4.0.1-nexus-ws.exe"
+    }
+  }
+}
