@@ -1,11 +1,11 @@
 {
-  "version": "4.0.3",
-  "notes": "Improve server-list authentication and rate-limit handling.\n\n- Show a Browser Login prompt when Roblox rejects the selected account session (HTTP 401).\n- Stop region requests after authentication failure, including pagination and retries, until the list is refreshed or another account is selected.\n- Browse public servers independently of the selected account session.\n- Share a short-lived server-page cache and honor Roblox Retry-After cooldowns.\n- Keep already-loaded servers if refreshing the list is rate limited.\n\nAn expired or rejected Roblox session still requires signing in again.\n",
-  "pub_date": "2026-11-01T06:19:59.603052Z",
+  "version": "4.0.4",
+  "notes": "Restore the original server-region lookup flow and expand theme customization.\n\n- Restore the original region lookup with three concurrent server requests and batch geolocation.\n- Add Gruvbox Dark, Gruvbox Light, Dracula, Nord, Tokyo Night and Rose Pine themes.\n- Add local wallpapers with opacity, brightness and blur controls.\n- Add UI background transparency while keeping text opaque.\n- Save wallpaper and appearance adjustments with the theme, with live preview and cancel support.\n- Keep region/player filters, complete server pagination, account data and automatic updates.\n",
+  "pub_date": "2026-11-01T06:34:13.889710Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmVwNWdBdWNWeldodWF0UVB0RHAyUUl3dWIxSFJ1SjJGdUdEMVRSdThLSDJRS3ZDTmYrZHRLWXUvcC84M0FJMlgzVmFTeDZ2K2IwbHhic0NvQ2xRMlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTEzOTkwCWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuM194NjQtc2V0dXAuZXhlCnJpemNNdDN3akpwUTdFRUNhdmIzdWNiQTMwY1Z6SlY4bHViU1Y4dVMzNTVuRTJkNzR0clhqV1NYOTdOY1dBVEdEZ3EvL0hNR3RzUUtVQ01zRjlOM0RnPT0K",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.3-beta-nexus-ws/setup-4.0.3-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmYzckxUa3kxUktPQkx3MWxCRW9Ic3poSmRPZHJQSEd4UnptMVRYd1JHTGIzYjZ5MWRSbUkxZXRwdWJzaC9YREdCZi81cFp3YWwyODZoamVkY0xVcWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTE0ODQ0CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuNF94NjQtc2V0dXAuZXhlCmpUUUFSaWR2RlRWNk4rSndJUVVlYUlXQ2JNTitRY1M1WU9XVmdrMjZpMDZlVDR1ZnBDY081c3ppa3hId0dOR0FJSDZ3M0prN09OU1huOTdXQlQrcUNBPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.4-beta-nexus-ws/setup-4.0.4-nexus-ws.exe"
     }
   }
 }
