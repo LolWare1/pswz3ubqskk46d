@@ -1,11 +1,11 @@
 {
-  "version": "4.0.4",
-  "notes": "Restore the original server-region lookup flow and expand theme customization.\n\n- Restore the original region lookup with three concurrent server requests and batch geolocation.\n- Add Gruvbox Dark, Gruvbox Light, Dracula, Nord, Tokyo Night and Rose Pine themes.\n- Add local wallpapers with opacity, brightness and blur controls.\n- Add UI background transparency while keeping text opaque.\n- Save wallpaper and appearance adjustments with the theme, with live preview and cancel support.\n- Keep region/player filters, complete server pagination, account data and automatic updates.\n",
-  "pub_date": "2026-11-01T06:34:13.889710Z",
+  "version": "4.0.5",
+  "notes": "Improve account drag-and-drop ordering.\n\n- Prevent rectangle selection from canceling account drags.\n- Add a visible drag grip and insertion line above or below the target account.\n- Save exact before/after positions, including first and last positions.\n- Preserve groups when reordering the combined account list with groups hidden.\n- Restore the previous visible order if saving fails.\n",
+  "pub_date": "2026-11-01T06:51:36.006191Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmYzckxUa3kxUktPQkx3MWxCRW9Ic3poSmRPZHJQSEd4UnptMVRYd1JHTGIzYjZ5MWRSbUkxZXRwdWJzaC9YREdCZi81cFp3YWwyODZoamVkY0xVcWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTE0ODQ0CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuNF94NjQtc2V0dXAuZXhlCmpUUUFSaWR2RlRWNk4rSndJUVVlYUlXQ2JNTitRY1M1WU9XVmdrMjZpMDZlVDR1ZnBDY081c3ppa3hId0dOR0FJSDZ3M0prN09OU1huOTdXQlQrcUNBPT0K",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.4-beta-nexus-ws/setup-4.0.4-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blZ6RE0yK0U4aEE2aU5lQko2ZlFqbktNckhPM1M3MEJTczF2MGlTd2NJaWp2Nzk1RUlvM0d3K1RsRkh1UytzVVBYdVZ6b0ZEcmEzYVNvRnhRLzJYMlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTE1ODg3CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuNV94NjQtc2V0dXAuZXhlCng2b1VXVC9jU1JrVFRDS1RiWnVmaStvcGJRSE84U0dxeHN1enlZUGgyNUpBRzkxZlhTeHgvRVI0cUdNL29ML292aklYWWVLSDB6Ujd4NktYNU9hcERRPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.5-beta-nexus-ws/setup-4.0.5-nexus-ws.exe"
     }
   }
 }
