@@ -1,11 +1,11 @@
 {
-  "version": "4.0.2",
-  "notes": "Fix account migration after an empty first launch.\n\n- Retry migration when the new account list is missing or empty, even if an older migration marker exists.\n- Preserve encrypted account files unchanged and back up empty destinations before recovery.\n- Keep populated account files and existing settings.\n- Do not reimport accounts intentionally removed after a successful migration.\n",
-  "pub_date": "2026-11-01T05:57:10.161008Z",
+  "version": "4.0.3",
+  "notes": "Improve server-list authentication and rate-limit handling.\n\n- Show a Browser Login prompt when Roblox rejects the selected account session (HTTP 401).\n- Stop region requests after authentication failure, including pagination and retries, until the list is refreshed or another account is selected.\n- Browse public servers independently of the selected account session.\n- Share a short-lived server-page cache and honor Roblox Retry-After cooldowns.\n- Keep already-loaded servers if refreshing the list is rate limited.\n\nAn expired or rejected Roblox session still requires signing in again.\n",
+  "pub_date": "2026-11-01T06:19:59.603052Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmFHdkNTVlFUS1o0KzdtdFY0RWtVaFFVK2xTYjE1RE8xd2FBQ3c5VjhPcFV2NlhSbjVPaEZXb2x5OUhkTklDZE9mRnlPNDFJMXE5dThsbjY4bGlhdVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTEyNjIxCWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMl94NjQtc2V0dXAuZXhlClA4K21xZFZUMDEvTGgxZ1Q3OWIvR0NoUjRtWG0yN3Z0Z2E0ME1OdGxDMUcwbkRoYmlPMmVXZGt3NHlQOVE1eFFMdFBBdU9LNW1QOFozUEJ1UEdESEFBPT0K",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.2-beta-nexus-ws/setup-4.0.2-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmVwNWdBdWNWeldodWF0UVB0RHAyUUl3dWIxSFJ1SjJGdUdEMVRSdThLSDJRS3ZDTmYrZHRLWXUvcC84M0FJMlgzVmFTeDZ2K2IwbHhic0NvQ2xRMlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTEzOTkwCWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuM194NjQtc2V0dXAuZXhlCnJpemNNdDN3akpwUTdFRUNhdmIzdWNiQTMwY1Z6SlY4bHViU1Y4dVMzNTVuRTJkNzR0clhqV1NYOTdOY1dBVEdEZ3EvL0hNR3RzUUtVQ01zRjlOM0RnPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.3-beta-nexus-ws/setup-4.0.3-nexus-ws.exe"
     }
   }
 }
