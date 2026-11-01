@@ -1,11 +1,11 @@
 {
-  "version": "4.0.5",
-  "notes": "Improve account drag-and-drop ordering.\n\n- Prevent rectangle selection from canceling account drags.\n- Add a visible drag grip and insertion line above or below the target account.\n- Save exact before/after positions, including first and last positions.\n- Preserve groups when reordering the combined account list with groups hidden.\n- Restore the previous visible order if saving fails.\n",
-  "pub_date": "2026-11-01T06:51:36.006191Z",
+  "version": "4.0.6",
+  "notes": "Add an explicit account arrangement mode and fix account dragging on Windows.\n\n- Right-click an account and choose Arrange account positions.\n- Drag handles appear only while arranging; move accounts using the dots on the left.\n- Confirm saves the new order; Cancel or Escape discards the preview.\n- Restore rectangle selection in normal mode.\n- Use captured pointer gestures instead of native HTML drag-and-drop for ordering.\n- Keep the draft available when saving fails and retain account data when confirming order.\n",
+  "pub_date": "2026-11-01T13:30:54.143058Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blZ6RE0yK0U4aEE2aU5lQko2ZlFqbktNckhPM1M3MEJTczF2MGlTd2NJaWp2Nzk1RUlvM0d3K1RsRkh1UytzVVBYdVZ6b0ZEcmEzYVNvRnhRLzJYMlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTE1ODg3CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuNV94NjQtc2V0dXAuZXhlCng2b1VXVC9jU1JrVFRDS1RiWnVmaStvcGJRSE84U0dxeHN1enlZUGgyNUpBRzkxZlhTeHgvRVI0cUdNL29ML292aklYWWVLSDB6Ujd4NktYNU9hcERRPT0K",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.5-beta-nexus-ws/setup-4.0.5-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmJiKyttL2FvS3ZtY0F5WW9CQjNLVHZ1WTVSN3RXNDlxN2JLYys0S1dQZnhWSUJqTHFlak5hT3NQeUNpMWZWOTg1cHBwWGNmZTN2alczVGRwaUx0UEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTM5ODQ0CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuNl94NjQtc2V0dXAuZXhlCk9TM0dGS3FsaU9rR21HYzdEQllmS2NKTXVVNWY2RDlVMDc4bGQwWkJMNnp6ZGx3dWVMcFZiOXNBMjVleG4vRVlldGdnWHFaT2VrWGdac0xzd3hPUkFBPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.6-beta-nexus-ws/setup-4.0.6-nexus-ws.exe"
     }
   }
 }
