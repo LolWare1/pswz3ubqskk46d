@@ -1,11 +1,11 @@
 {
-  "version": "4.0.12",
-  "notes": "Faster handoff to region search\n\n- Automatic region lookup remains limited to the 30 servers on the current UI page. Only the circular search scans additional candidates for the selected region and player order.\n- Region search no longer waits for all requests from a cancelled page to finish. It can use free request slots immediately while slow requests complete in the background.\n- Reuse addresses returned by cancelled page requests to avoid duplicate address lookups.\n- Keep the actual shared six-request concurrency limit, cached and offline geolocation, and Roblox rate-limit handling.\n",
-  "pub_date": "2026-11-01T16:06:06.450666Z",
+  "version": "4.0.13",
+  "notes": "Restore the original circular region-search flow\n\n- Return region discovery to the first circular-search behavior from 4.0.8: six-server batches processed by three address workers, followed by one deduplicated API geolocation request per batch.\n- Use the previous IP-API geolocation source for the server browser instead of the newer local location estimates.\n- Separate the classic lookup cache from locations saved by the newer discovery method.\n- Keep the circular search button, country/city filters, player order, cancellation and pause after five additional matching servers.\n- Automatic region lookup remains limited to the 30 servers on the current UI page.\n",
+  "pub_date": "2026-11-01T16:28:22.341590Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blpQSHZIQk92QTZIaTU4QjhqZ3hqQzlhaXl1Z1ArMCtCL25PRUpkU2Fha2dhYVQzc2dhVldyUzh2dVhlYUp0TFd3bG5pbk5ZaUpYY2c1SFlRa3hhaEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTQ5MTM2CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMTJfeDY0LXNldHVwLmV4ZQowWlppUTlKR0t4UHkrMjFOdWlVY3JNM2lsZWFlY1grZVRYSWErTXhNOHc1MFVmNUVSNll1ck5VTVdtT250Rk42b2ZiSVA0d3ZSVVA0ZWtjMkhuTzBCZz09Cg==",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.12-beta-nexus-ws/setup-4.0.12-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blNpUEVoR0gwYUlYYWYxdCtvdTY5T3JBem0xdDhNN3k5WDY4amZ1MXhKUGI0ZE9XUldDY0hJUWtkYjlpOFRKcU1EVlE2NjE1YjJZcmJrSmlSNTZ2bkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTQ5OTc0CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMTNfeDY0LXNldHVwLmV4ZQpOUlVkeUx3RVFHZ0xXQzF4aWx0Ly9rN2lOVXh6M3lBZUU1UkU4SnNVOUk1VXk1ZlV2bzFjN0t5dElLOVhtdXRwVWhsTlFHQkJWeXdoWkZGTFFKOGpBZz09Cg==",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.13-beta-nexus-ws/setup-4.0.13-nexus-ws.exe"
     }
   }
 }
