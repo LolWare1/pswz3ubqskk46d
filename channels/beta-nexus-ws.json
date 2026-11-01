@@ -1,11 +1,11 @@
 {
-  "version": "4.0.7",
-  "notes": "Refine account arrangement and keep skipped updates accessible.\n\n- Place Arrange account positions directly above Sort Alphabetically in the context menu.\n- Allow dragging the name, avatar or any other part of an account row while arranging.\n- Keep Confirm/Cancel behavior and normal rectangle selection.\n- Show an update icon immediately to the left of GitHub in the title bar.\n- Skip This Version silences that version's popup while retaining its update icon, including after restarting.\n- Click the icon to reopen the update at any time; clear the icon when no update is available.\n",
-  "pub_date": "2026-11-01T14:06:14.978293Z",
+  "version": "4.1.0",
+  "notes": "4.1.0 - Restore the 4.0.7 experience\n\n- Restore the original 4.0.7 interface and its account arrangement, themes, wallpaper and update indicator.\n- Restore the earlier server-page and external region lookup flow; remove the region-search and offline-geolocation additions introduced after 4.0.7.\n- Use version 4.1.0 so existing 4.0.x installations can update normally and future update checks recognize the installed version correctly.\n- Continue using the existing account and settings storage. The updater backs up user data before installation.\n",
+  "pub_date": "2026-11-01T17:04:33.254545Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blRtMzlqVVJFdmwzSjFvSW9vNmlocDhzcEpHaXlWSjJyRE5yNlM4T3VkMHoyNHpUOHRpYnlFd1NJY3BEVE1xK2JEWTRCczZndGd3KzRwWUhyRXp6VUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTQxOTY2CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuN194NjQtc2V0dXAuZXhlCnZhRCtYQUhMVVRoemRYZW80eGc3S2dQUmNvdmpPRk1GVENCa3dHNXM5ZktXbGVkd240MjlqSDU4RlFPcjBaaW9abm5KRUFwUnM0YzRnbkZMSm5ac0RRPT0K",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.7-beta-nexus-ws/setup-4.0.7-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0blc5ZldyTUd4S0pVa1M3M2dFL2tITlFvbmFScEdDd0lBYVNxVHp5dkhuUjNoY3MveWUzUUsxYnFBY3dGWnJaR1JRTFNTRnFlZ0hCRUpGczd1QXVlSEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTUyNjQxCWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjEuMF94NjQtc2V0dXAuZXhlCkZhaVAwNFFqRDhDeGt1cjNXaEp3d0pYWnJadUdjVE5kM0tERmpEQzVPOS95Y3V3eGJLa2NBKzh4dldFYzFnUW55Ukk4ckYvVDArZDRNYUpVTWZTZENBPT0K",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.1.0-beta-nexus-ws/setup-4.1.0-nexus-ws.exe"
     }
   }
 }
