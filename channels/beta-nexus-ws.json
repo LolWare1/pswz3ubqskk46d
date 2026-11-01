@@ -1,11 +1,11 @@
 {
-  "version": "4.0.10",
-  "notes": "Remove the circular region search and stabilize server-list loading.\n\n- Remove the region-search circle while keeping automatic regions for the current UI page.\n- Prioritize server listing before automatic region lookups; stop obsolete page lookups on navigation.\n- Reuse cached CSRF tokens instead of requesting an authentication token for every server, and preserve rate-limit signals from authentication.\n- Limit automatic region address queries to three simultaneous requests and skip unnecessary queries for full servers.\n- Handle server-list HTTP 429 with a visible, cancellable wait and continue from the same cursor.\n- Preserve loaded servers during throttling and refresh, reduce request frequency after limits, and prevent repeated-cursor loops.\n- Keep offline geolocation, cached regions, filters, account data and update notifications.\n\nRoblox may still impose request limits. The application now waits and resumes rather than treating each expected limit as a failed refresh.\n",
-  "pub_date": "2026-11-01T15:45:13.237941Z",
+  "version": "4.0.11",
+  "notes": "Restored region loading and search\n\n- Restored the circular region-search button next to the region selector, using the selected player order and optional city filter.\n- Current-page regions load as soon as servers appear, without waiting for the entire server list or its rate-limit countdown.\n- Restored the previous six-request region pipeline, with shared caching and local IP geolocation.\n- Kept cancellable Roblox rate-limit waits and previously loaded servers.\n",
+  "pub_date": "2026-11-01T15:57:10.746140Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmRpT3Y4a0hPZnhZdHdZTmY3bHp6RnZqVzNsVmt5bjU5QTJYcjhJRktRNWh0V0VsZnpaWjNla3l6YmQwNUVhVkE2THIyTmdyOHIrVmpUKzF6VnhkOUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTQ3ODE0CWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMTBfeDY0LXNldHVwLmV4ZQpwSTZnZVVua0VQZC9wWDdKMWZWRVdQRk5saGlxVmdUQzFkMVpMclFiYkNDMU5zZTMzY1pNV01aY2JWYitoWHFKa1M0cW9vU2ZNSXVvQ2wweTZ0SEpCQT09Cg==",
-      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.10-beta-nexus-ws/setup-4.0.10-nexus-ws.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTSVRQRW8rS1k0bmE3NWpPMGdDL0cxZEp5QVRzR0F6OEU5UTVoYjl1R1ZLZFEvbXVCd201c1EzcjNZL3oxMUdiSitFeExDTWhPekpDS0NLUU9LMFhXUThiNWZKSDJ0SndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTQ4NjAxCWZpbGU6Um9ibG94IEFjY291bnQgTWFuYWdlcl80LjAuMTFfeDY0LXNldHVwLmV4ZQpodHRwWmcwNkFYZGRiYlhXTWVEdlVkMkpyb1M2T3lqdDdBQisxM0swOGFKaGlrZkJ3Z0xDMnhnS2xSWjY3bExKWnBtQzJwR2pWTkNtb1laaklnclBEQT09Cg==",
+      "url": "https://github.com/LolWare1/pswz3ubqskk46d/releases/download/v4.0.11-beta-nexus-ws/setup-4.0.11-nexus-ws.exe"
     }
   }
 }
